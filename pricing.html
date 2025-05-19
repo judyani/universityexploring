@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing - University Explorer</title>
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header" data-header>
+    <div class="container">
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-item"><a href="about.html" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="services.html" class="navbar-link">Services</a></li>
+          <li class="navbar-item"><a href="pricing.html" class="navbar-link active">Pricing</a></li>
+          <li class="navbar-item"><a href="contact.html" class="navbar-link">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+  <main style="margin-top: 90px;">
+    <section class="section" aria-label="pricing">
+      <div class="container">
+        <h1 class="h1 title">Pricing</h1>
+        <div class="pricing-table">
+          <div class="pricing-card">
+            <h2 class="h2 title">Basic</h2>
+            <p class="price">Free</p>
+            <ul>
+              <li>Access to university database</li>
+              <li>Basic search features</li>
+              <li>Email support</li>
+            </ul>
+          </div>
+          <div class="pricing-card">
+            <h2 class="h2 title">Premium</h2>
+            <p class="price">$9.99/month</p>
+            <ul>
+              <li>All Basic features</li>
+              <li>Personalized recommendations</li>
+              <li>Priority support</li>
+              <li>Virtual campus tours</li>
+            </ul>
+          </div>
+          <div class="pricing-card">
+            <h2 class="h2 title">Elite</h2>
+            <p class="price">$19.99/month</p>
+            <ul>
+              <li>All Premium features</li>
+              <li>1-on-1 expert guidance</li>
+              <li>Exclusive webinars</li>
+              <li>Application review</li>
+            </ul>
+          </div>
+        </div>
+        <hr style="margin: 40px 0;">
+        <h2 class="h2 title">Tour Prices by University</h2>
+        <table class="tour-prices" style="width:100%; max-width:700px; margin: 0 auto; border-collapse:collapse;">
+          <thead>
+            <tr style="background: #f5f5f5;">
+              <th style="padding:10px; border:1px solid #ddd;">University</th>
+              <th style="padding:10px; border:1px solid #ddd;">Location</th>
+              <th style="padding:10px; border:1px solid #ddd;">Tour Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">Harvard University</td>
+              <td style="padding:10px; border:1px solid #ddd;">Cambridge, MA, USA</td>
+              <td style="padding:10px; border:1px solid #ddd;">$120</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">Massachusetts Institute of Technology (MIT)</td>
+              <td style="padding:10px; border:1px solid #ddd;">Cambridge, MA, USA</td>
+              <td style="padding:10px; border:1px solid #ddd;">$110</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">Stanford University</td>
+              <td style="padding:10px; border:1px solid #ddd;">Stanford, CA, USA</td>
+              <td style="padding:10px; border:1px solid #ddd;">$115</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">University of Toronto</td>
+              <td style="padding:10px; border:1px solid #ddd;">Toronto, ON, Canada</td>
+              <td style="padding:10px; border:1px solid #ddd;">$100</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">University of British Columbia</td>
+              <td style="padding:10px; border:1px solid #ddd;">Vancouver, BC, Canada</td>
+              <td style="padding:10px; border:1px solid #ddd;">$95</td>
+            </tr>
+            <tr>
+              <td style="padding:10px; border:1px solid #ddd;">McGill University</td>
+              <td style="padding:10px; border:1px solid #ddd;">Montreal, QC, Canada</td>
+              <td style="padding:10px; border:1px solid #ddd;">$90</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <img src="assets/images/Capture.PNG" width="187" height="38" alt="logo">
+          </a>
+          <p class="footer-text">
+            We always make our customer
+            happy by providing as many
+            choices as possible
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">About</p></li>
+          <li><a href="about.html" class="footer-link">Our Story</a></li>
+          <li><a href="#" class="footer-link">Features</a></li>
+          <li><a href="#" class="footer-link">News</a></li>
+          <li><a href="#" class="footer-link">Menu</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Company</p></li>
+          <li><a href="#" class="footer-link">Why Company</a></li>
+          <li><a href="#" class="footer-link">Partner With Us</a></li>
+          <li><a href="#" class="footer-link">FAQ</a></li>
+          <li><a href="#" class="footer-link">Blog</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li><p class="footer-list-title">Support</p></li>
+          <li><a href="#" class="footer-link">Account</a></li>
+          <li><a href="#" class="footer-link">Support Center</a></li>
+          <li><a href="#" class="footer-link">Feedback</a></li>
+          <li><a href="#" class="footer-link">Contact Us</a></li>
+          <li><a href="#" class="footer-link">Accessibility</a></li>
+        </ul>
+        <div class="footer-list">
+          <p class="footer-list-title">Get in Touch</p>
+          <p class="footer-text">
+            Question or feedback? We’d love to hear from you.
+          </p>
+          <form action="" class="input-wrapper">
+            <input type="email" name="email_address" placeholder="Email Address" autocomplete="off" required class="input-field">
+            <button type="submit" class="input-btn" aria-label="send a message">
+              <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy 2025 || All Rights Reserved
+        </p>
+        <ul class="footer-bottom-list">
+          <li>
+            <a href="#" class="footer-bottom-link">Terms and Condition</a>
+          </li>
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

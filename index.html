@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Explorer - Choose What's Best For You</title>
+  <meta name="title" content="University Exporer - Choose What's Best For You">
+  <meta name="description" content="Explore different types of universities!">
+  <!--favicon-->
+  <link rel="shortcut icon" href="assets/images/Capture.PNG" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!--custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/preloader.svg">
+</head>
+<body>
+  <!--#PRELOADER-->
+  <div class="preloader" data-preloader>
+    <div class="preloader-inner">
+      <img src="./assets/images/preloader.svg" width="50" height="50" alt="" class="img">
+    </div>
+  </div>
+  <!--#HEADER-->
+  <header class="header" data-header>
+    <div class="container">
+      <nav class="navbar" data-navbar>
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="assets/images/Capture.PNG" width="187" height="38" alt="logo">
+          </a>
+          <button class="nav-toggle-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link active">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="services.html" class="navbar-link">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="pricing.html" class="navbar-link">Pricing</a>
+          </li>
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+      <div class="overlay" data-overlay data-nav-toggler></div>
+    </div>
+  </header>
+  <main>
+    <article>
+      <!--#HERO-->
+      <section class="section hero has-bg-image" aria-label="hero"
+        style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-subtitle">
+              Explore universities
+            </p>
+            <h2 class="h1 title hero-title">
+              Find what's right for you, choose a uiversity to explore.
+            </h2>
+            <p class="hero-text">
+              We always make our customer happy by providing
+              as many choices as possible
+            </p>
+            <div class="wrapper">
+              <a href="pricing.html" class="btn btn-secondary">
+                <span class="span">Register for an in-person tour today!</span>
+                <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+              </a>
+              <a href="about.html" class="btn btn-secondary">Our Story</a>
+            </div>
+          </div>
+          <figure class="hero-banner">
+            <img src="assets/images/hero.jpg" width="1000" height="1000" alt="hero banner" class="w-100">
+          </figure>
+        </div>
+      </section>
+      <!--#SERVICE-->
+      <section class="section service" aria-label="service">
+        <div class="container">
+          <div class="title-wrapper">
+            <p class="section-subtitle">
+              What We Serve
+            </p>
+            <h2 class="h2 title section-title">Top Values For You</h2>
+            <p class="section-text">
+              Try a variety of benefits when
+              using our services.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="card-icon">
+              
+            </div>
+            <h3 class="h3 title card-title">Lot Of Choices</h3>
+            <p class="card-text">
+              Total 30+ destinations that we work with.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="card-icon">
+            
+            </div>
+            <h3 class="h3 title card-title">Best Tour Guide</h3>
+            <p class="card-text">
+              Our tour guide with 20+ years of experience.
+            </p>
+          </div>
+          <div class="service-card">
+            <div class="card-icon">
+              
+            </div>
+            <h3 class="h3 title card-title">Easy Booking</h3>
+            <p class="card-text">
+              With an easy and fast ticket purchase process.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--#DESTINATION-->
+      <section class="section desti" aria-label="destination">
+        <div class="container">
+          <p class="section-subtitle">Top Universities</p>
+          <h2 class="h2 title section-title">Explore Top Universities</h2>
+          <ul class="desti-list">
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/Harvard.jpg" width="600" height="650" loading="lazy"
+                      alt="Harvard University" class="img-cover">
+                    <span class="card-price">$120</span>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        Harvard University
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Cambridge, MA, USA
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.9
+                      </span>
+                      <p class="rating-text">(15.2k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/MIT.jpg" width="600" height="650" loading="lazy"
+                      alt="MIT" class="img-cover">
+                    <span class="card-price">$110</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        Massachusetts Institute of Technology (MIT)
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Cambridge, MA, USA
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.8
+                      </span>
+                      <p class="rating-text">(13.7k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/stanford.jpg" width="600" height="650" loading="lazy"
+                      alt="Stanford University" class="img-cover">
+                    <span class="card-price">$115</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        Stanford University
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Stanford, CA, USA
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.8
+                      </span>
+                      <p class="rating-text">(12.1k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/toronto (1).jpg" width="600" height="650" loading="lazy"
+                      alt="University of Toronto" class="img-cover">
+                    <span class="card-price">$100</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        University of Toronto
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Toronto, ON, Canada
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.7
+                      </span>
+                      <p class="rating-text">(10.5k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/UBC(2).jpg" width="600" height="650" loading="lazy"
+                      alt="University of British Columbia" class="img-cover">
+                    <span class="card-price">$95</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        University of British Columbia
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Vancouver, BC, Canada
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.6
+                      </span>
+                      <p class="rating-text">(8.9k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+            <li>
+              <a href="pricing.html" class="destination-box">
+                <div class="desti-card">
+                  <div class="card-banner img-holder" style="--width: 600; --height: 650;">
+                    <img src="assets/images/mcgill(3).jpg" width="600" height="650" loading="lazy"
+                      alt="McGill University" class="img-cover">
+                    <span class="card-price">$90</span>
+                  </div>
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="pricing.html" class="card-title">
+                        McGill University
+                      </a>
+                    </h3>
+                    <address class="card-text">
+                      Montreal, QC, Canada
+                    </address>
+                    <div class="card-rating">
+                      <span class="span">
+                        <ion-icon name="star" aria-hidden="true"></ion-icon>
+                        4.7
+                      </span>
+                      <p class="rating-text">(9.2k Reviews)</p>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </li>
+          </ul>
+          <a href="services.html" class="btn btn-primary">View All Universities</a>
+        </div>
+      </section>
+      <!-- #EXPERIENCE-->
+      <section class="section exp" aria-label="experience" style="text-align: center;">
+        <div class="container">
+          <div class="exp-content">
+            <p class="section-subtitle">
+              Our Experience
+            </p>
+            <h2 class="h2 title section-title">With Our Experience We Will Serve You</h2>
+            <p class="section-text" style="text-align: center;">
+              Since we first opened we have always prioritized the convenience of our users by providing low prices and
+              with an easy process.
+            </p>
+            <ul class="exp-list" style="display: inline-flex; gap: 30px; justify-content: center;">
+              <li class="exp-item">
+                <h3 class="h3 title item-title">20</h3>
+                <p class="item-text">
+                  Years <br>
+                  Experience
+                </p>
+              </li>
+              <li class="exp-item">
+                <h3 class="h3 title item-title">30+</h3>
+                <p class="item-text">
+                  Destination <br>
+                  Collaboration
+                </p>
+              </li>
+              <li class="exp-item">
+                <h3 class="h3 title item-title">50K+</h3>
+                <p class="item-text">
+                  Happy <br>
+                  Customer
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- #GALLERY-->
+      <section class="section gallery" aria-label="gallery">
+        <div class="container">
+          <p class="section-subtitle">Photo Gallery</p>
+          <h2 class="h2 title section-title">
+            Photo's From Travelers
+          </h2>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                <img src="assets/images/tour2.jpg" width="700" height="925" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 925;">
+                <img src="assets/images/tour1.jpg" width="700" height="925" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 840;">
+                <img src="assets/images/tour6(1).jpg" width="700" height="840" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                <img src="assets/images/tour3.jpg" width="700" height="378" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                <img src="assets/images/tour4.jpg" width="700" height="378" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+            <li class="gallery-item">
+              <figure class="item-banner img-holder" style="--width: 700; --height: 378;">
+                <img src="assets/images/tour5.jpg" width="700" height="378" loading="lazy" alt="gallery"
+                  class="img-cover">
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section cta" aria-label="call to action">
+        <div class="container">
+          <div class="cta-card has-bg-image" style="background-image: url('./assets/images/cta-bg.jpg')">
+            <h2 class="h2 title section-title">
+              Prepare Yourself & Let's Explore Universities!  
+            </h2>
+            <p class="section-text">
+              We have many special offers especially for you.
+            </p>
+            <a href="services.html" class="btn btn-primary">Get Started</a>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+  <!--#FOOTER-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="assets/images/Capture.PNG" width="187" height="38" alt="logo">
+          </a>
+          <p class="footer-text">
+            We always make our customer
+            happy by providing as many
+            choices as possible
+          </p>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">About</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Features</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">News</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Menu</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Company</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Why Company</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Partner With Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">FAQ</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Blog</a>
+          </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Support</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Account</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Support Center</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Feedback</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Accessibility</a>
+          </li>
+        </ul>
+        <div class="footer-list">
+          <p class="footer-list-title">Get in Touch</p>
+          <p class="footer-text">
+            Question or feedback? We'd love to hear from you.
+          </p>
+          <form action="" class="input-wrapper">
+            <input type="email" name="email_address" placeholder="Email Address" autocomplete="off" required
+              class="input-field">
+            <button type="submit" class="input-btn" aria-label="send a message">
+              <ion-icon name="paper-plane-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy 2025 || All Rights Reserved</a>
+        </p>
+        <ul class="footer-bottom-list">
+          <li>
+            <a href="#" class="footer-bottom-link">Terms and Condition</a>
+          </li>
+          <li>
+            <a href="#" class="footer-bottom-link">Privacy and Policy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--custom js link-->
+  <script src="./assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
